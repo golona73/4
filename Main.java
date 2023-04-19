@@ -19,7 +19,7 @@ class Main {
     System.out.println("1 - Dodawanie nowego studenta");
     menu = sc.nextInt();
     
-      switch(menu){
+      switch(menu) {  
         case 1:
 
           System.out.println("Podaj Imię: ");
