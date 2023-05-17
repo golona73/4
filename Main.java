@@ -26,10 +26,12 @@ class Main {
           String lastname= sc.next();
           System.out.println("Podaj wiek: ");
           int age= sc.nextInt();
+          System.out.println("Podaj Date Urodzenia: ");
+          String birthdate= sc.next();
     
     try{
       Service s = new Service();
-      s.addStudent(new Student(name, lastname, age));
+      s.addStudent(new Student(name, lastname, age, birthdate));
        
      
       } catch (IOException e) {
