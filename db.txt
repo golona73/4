@@ -1,4 +1,1 @@
-Krzysztof 20
-Janusz 40
-Mikpon 23
-Sebastian 20
+Sebastian Golonka 22
